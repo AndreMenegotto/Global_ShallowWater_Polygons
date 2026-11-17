@@ -1,0 +1,21 @@
+﻿Field name,Data type,Unit/Format,Description
+ID,Integer,-,Unique polygon identifier
+long,Double,Decimal degrees (WGS 84),Longitude of polygon centroid
+lat,Double,Decimal degrees (WGS 84),Latitude of polygon centroid
+type,String,Categorical,Geomorphological classification of the feature: Continental; Insular; Other_Shallow
+area,Double,km²,Total surface area of the polygon
+area_0_200,Double,km²,Surface area between 0 and -200 m
+depthMax,Double,meters,Maximum depth within the polygon
+depth_q75,Double,meters,75th percentile of depth
+depth_q50,Double,meters,Median depth
+depth_q25,Double,meters,25th percentile of depth
+depthMin,Double,meters,Minimum depth within the polygon
+maxElev,Double,meters,Maximum elevation relative to sea level
+n_isl,Integer,-,"≥1: Number of large islands (> 1 km²) from the Global Islands Database (GID) within the shelf;
+0: No large islands. Only small islands (< 1 km²) recorded in the GID;
+NA: Islands indicated in the topography but absent from the GID"
+ALL_Uniq,String,Comma-separated values,IDs of large islands from the Global Islands Database
+flag,String,Semicolon-separated values; Categorical,"Quality flags: NoGIDMatch (insular due to positive topography but no correspondence to GID);
+NoGEBCOLand (insular due to correspondence to GID but no positive topography);
+NoShelfArea (no grid cells between 0 and -200 m in the bathymetric raster);
+DeepMargin=X (X represents the proportion of polygon area extending beyond the -200 m isobath due to mismatches between topography-derived shelf and island boundaries)"

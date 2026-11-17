@@ -1,0 +1,22 @@
+# Data License
+
+The global dataset of insular shelves and other submerged shallow-water features provided in this repository, including its spatial data and associated attribute tables, is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by/4.0/
+
+When using, adapting, or redistributing this dataset, appropriate credit must be given to the dataset authors, the CC BY 4.0 license must be referenced, and any modifications must be indicated.
+
+## Source Data and Attribution
+
+This dataset incorporates information derived from the following sources:
+
+**GEBCO Gridded Bathymetry Data**
+
+GEBCO Bathymetric Compilation Group, 2026. The GEBCO_2026 Grid – a continuous terrain model of the global oceans and land. https://doi.org/10.5285/4f68d5c7-45eb-f999-e063-7086abc036fa
+
+**Global Islands Database**
+
+Sayre, R., Noble, S., Hamann, S., Smith, R., Wright, D., Breyer, S., Butler, K., Van Graafeiland, K., Frye, C., Karagulle, D., Hopkins, D., Stephens, D., Kelly, K., Basher, Z., Burton, D., Cress, J., Atkins, K., Van Sistine, D.P., Friesen, B., Allee, R., Allen, T., Aniello, P., Asaad, I., Costello, M.J., Goodin, K., Harris, P., Kavanaugh, M., Lillis, H., Manca, E., Muller-Karger, F., Nyberg, B., Parsons, R., Saarinen, J., Steiner, J., Reed, A., 2019. A new 30 meter resolution global shoreline vector and associated global islands database for the development of standardized ecological coastal units. *Journal of Operational Oceanography*, 12, S47–S56. https://doi.org/10.1080/1755876X.2018.1529714
+
+These source datasets are subject to their respective terms and attribution requirements. Their inclusion in this repository does not imply endorsement of this derived dataset by GEBCO or UNEP-WCMC.

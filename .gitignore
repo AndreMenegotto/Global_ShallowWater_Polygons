@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+.quarto/
+Data/1_raw
+Data/2_tmp
+Data/2_tmp_2023
+Figures/
+Manuscript/
+Rascunho/
+renv/
